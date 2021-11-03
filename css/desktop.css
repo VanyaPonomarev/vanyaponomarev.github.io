@@ -11,12 +11,12 @@
     display: none;
 }
 
-.header__burger {
+.header-burger {
     display: flex;
     align-items: center;
 }
 
-#burger {
+.burger {
     display: none;
 }
 
@@ -42,7 +42,7 @@
     text-decoration: underline;
 }
 
-.header__top-container {
+.header-top-container {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;

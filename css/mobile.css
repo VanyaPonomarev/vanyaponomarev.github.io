@@ -54,7 +54,7 @@ html {
     padding-bottom: 220px;
 }
 
-.header__container {
+.header-container {
     padding-top: 30px;
     padding-bottom: 0;
 }
@@ -71,37 +71,37 @@ html {
     z-index: -1;
 }
 
-.header__burger {
+.header-burger {
     text-align: right;
     position: relative;
 }
 
-#burger {
+.burger {
     position: absolute;
     z-index: 2;
     right: 0;
     opacity: 0;
 }
 
-#burger:checked~.menu {
+.burger:checked~.menu {
     display: flex;
 }
 
-#burger:checked~.burger-wrapper .button-burger {
+.burger:checked~.burger-wrapper .button-burger {
     background-color: transparent;
 }
 
-#burger:checked~.burger-wrapper .button-burger::after,
-#burger:checked~.burger-wrapper .button-burger::before {
+.burger:checked~.burger-wrapper .button-burger::after,
+.burger:checked~.burger-wrapper .button-burger::before {
     top: 0;
 }
 
-#burger:checked~.burger-wrapper .button-burger::after {
+.burger:checked~.burger-wrapper .button-burger::after {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
 }
 
-#burger:checked~.burger-wrapper .button-burger::before {
+.burger:checked~.burger-wrapper .button-burger::before {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
@@ -434,7 +434,7 @@ input[type="search"] {
 
 .new-post__search-btn {
     width: 50px;
-    height: 50px;
+    padding: 25px;
     position: absolute;
     right: 0;
     background-color: #b59f5b;
@@ -463,7 +463,7 @@ input[type="search"] {
 
 .subscribe-btn {
     width: 100%;
-    height: 50px;
+    padding: 20px 0;
     border-radius: none;
     border: none;
     background-color: #b59f5b;
