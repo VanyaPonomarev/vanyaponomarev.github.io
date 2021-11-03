@@ -1,0 +1,80 @@
+.header__top-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.logotype-wrapper {
+    margin: 0;
+}
+
+.logotype {
+    width: 160px;
+}
+
+.header {
+    background-image: url(../images/banner-bg-tablet.jpg);
+    background-position: center;
+    padding-bottom: 125px;
+}
+
+.header__title {
+    font-size: 40px;
+    margin: 1100px auto 0;
+    max-width: 620px;
+}
+
+.main-title {
+    font-size: 40px;
+    line-height: 1.7;
+    max-width: 700px;
+    margin: 100px auto 0;
+}
+
+.trends-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trends-article {
+    flex-grow: 1;
+    padding-top: 65px;
+    max-width: calc(50% - 2px);
+}
+
+.trends-article:nth-child(2n+2) {
+    margin-left: 2px;
+}
+
+.trends-content {
+    padding: 35px 60px  35px  30px;
+}
+
+.page {
+    display: flex;
+    justify-content: space-around;
+}
+
+.aside {
+    min-width: 270px;
+    max-width: 270px;
+    margin-left: 35px;
+}
+
+.shop-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.shop-article {
+    max-width: calc(50% - 10px);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.shop-product-content {
+    flex-grow: 1;
+}
